@@ -22,14 +22,14 @@ Virtualmin Setting:
 
 Command Line:
 
-php sync.php domain.com
+php main.php domain.com
 
 or
 
-php sync.php domain.com -ftp (-ftp : transfer all web files to remote(virtualmin) server)
+php main.php domain.com -ftp (-ftp : transfer all web files to remote(virtualmin) server)
 
 
-sync.php file
+main.php file
 
         //Virtualmin Server Information
        	$v = new Virtualmin('root', 'pass', '2.2.2.2');
@@ -64,11 +64,11 @@ Kullanımı:
 
 Komut satırında
 
-php sync.php domain.com
+php main.php domain.com
 
 yada
 
-php sync.php domain.com -ftp (-ftp yazılırsa tüm web dizini de aktarır.)
+php main.php domain.com -ftp (-ftp yazılırsa tüm web dizini de aktarır.)
 
 
 
